@@ -5,6 +5,29 @@
 .test
 {
     color: blue;
-    cursor: pointer;
-    /* cursor: url("https://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2015/4/21/1429629869293/d8e257bb-a76d-49e7-989a-39e07196a915-2060x1236.jpeg"),auto; */
+    /* cursor: pointer; */
+     cursor: url("https://tse3.mm.bing.net/th?id=OIP.rcGjcjoZBPYHhvOQdw9IMAHaHa&pid=Api&P=0&h=180"),auto; 
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: row-reverse;
+    height: 500px;
+    border: 1px solid gray;
+
+}
+.box{
+    padding:  20px;
+    background-color: red;
+    width: 110px;
+    height: 110px;
+
+}
+.box2{
+    background-color: green;
+    
+}
+.box3{
+    background-color: blue;
 }
